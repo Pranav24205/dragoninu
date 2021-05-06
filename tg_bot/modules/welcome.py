@@ -120,7 +120,7 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
 
             # Welcome yourself
             elif new_mem.id == bot.id:
-                update.effective_message.reply_text("hello 😎 thanks for using me make sure you promote me then i can safe your group for spammers 🥰🥰🥰")
+                update.effective_message.reply_text("HELLO THANKS FRO ADDING ME TO YOUR GROUP THIS BOT IS SAFE AND CODED IN PYTHON BY @PRANAVJHA1. IF YOU FACE ANY ISSUE YOU CAN JOIN MY SUUPORT CHAT https://t.me/testingabc123_bot")
 
             else:
                 # If welcome message is media, send with appropriate function
