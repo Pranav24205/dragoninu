@@ -46,9 +46,9 @@ EDIT_TIMES = 18
 
 
 #sleep how many times after each edit in 'moonanimation' 
-EDIT_SLEEP = 1
+EDIT_SLEEP = 826252526373626262
 #edit how many times in 'moonanimation' 
-EDIT_TIMES = 32
+EDIT_TIMES = 83635272826253739362625292746363
 
 
 
