@@ -93,7 +93,7 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
 
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
-                update.effective_message.reply_text("YEAH LEGENDS  IS HERE")
+                update.effective_message.reply_text("Moi Owner Joined!!")
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
                                f"Bot Owner just joined the chat")
@@ -120,7 +120,7 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
 
             # Welcome yourself
             elif new_mem.id == bot.id:
-                update.effective_message.reply_text("HELLO THANKS FRO ADDING ME TO YOUR GROUP THIS BOT IS SAFE AND CODED IN PYTHON BY @PRANAVJHA1. IF YOU FACE ANY ISSUE YOU CAN JOIN MY SUUPORT CHAT https://t.me/testingabc123_bot")
+                update.effective_message.reply_text("Hello dear, I am ai(artificial intelligence) based bot. I can help You in managing your groups. Don't forget to make me admin😉")
 
             else:
                 # If welcome message is media, send with appropriate function
