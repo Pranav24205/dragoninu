@@ -145,8 +145,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        url="t.me/dragoninuofficialgroup")],
                                                                                    [InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="SUPPORT GROUP",
-                                                                       url="https://t.me/testingabc123_bot")
+                                                                                   InlineKeyboardButton(text="Update Channel",
+                                                                       url="https://t.me/dragoninuofficialchannel")
                                                                                  ]]))
 
     else:
